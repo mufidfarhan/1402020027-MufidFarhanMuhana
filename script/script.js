@@ -71,5 +71,8 @@ $(document).ready(function () {
 				);
 			}
 		}
+		$("#no-telp:input").val("");
+		$("#nom-data, #nom-pulsa").prop("selectedIndex", 0);
+		$("#nom-pulsa, #nom-data, #button-beli").prop("disabled", true);
 	});
 });
